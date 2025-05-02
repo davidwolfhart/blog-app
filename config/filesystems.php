@@ -35,10 +35,7 @@ return [
             'root' => storage_path('app/private'),
             'serve' => true,
             'throw' => false,
-<<<<<<< HEAD
             'report' => false,
-=======
->>>>>>> caff542facae210c01436af0469a396724c1fdd6
         ],
 
         'public' => [
@@ -47,10 +44,7 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
             'throw' => false,
-<<<<<<< HEAD
             'report' => false,
-=======
->>>>>>> caff542facae210c01436af0469a396724c1fdd6
         ],
 
         's3' => [
@@ -63,10 +57,7 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
             'throw' => false,
-<<<<<<< HEAD
             'report' => false,
-=======
->>>>>>> caff542facae210c01436af0469a396724c1fdd6
         ],
 
     ],

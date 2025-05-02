@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DashboardCategoryController;
@@ -35,10 +34,3 @@ Route::get('/dashboard/categories/{slug}/restore', [DashboardCategoryController:
 Route::resource('/dashboard/users', DashboardUserController::class)->middleware('auth');
 Route::resource('/dashboard/categories', DashboardCategoryController::class)->middleware('auth');
 Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
-=======
-use Illuminate\Support\Facades\Route;
-
-Route::get('/', function () {
-    return view('home');
-});
->>>>>>> caff542facae210c01436af0469a396724c1fdd6
